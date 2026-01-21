@@ -1,0 +1,8 @@
+Execution Context in JavaScript** is the environment where JavaScript code is evaluated and executed.
+Whenever JS runs code, it creates an execution context.
+There are three main types: **Global Execution Context**, **Function Execution Context**, and **Eval Execution Context**.
+Each execution context has two phases: **Creation phase** and **Execution phase**.
+In the creation phase, memory is allocated for variables and functions (hoisting happens here).
+In the execution phase, code runs line by line and variables get actual values.
+The global execution context is created first and only once.
+Function execution contexts are created whenever a function is called and are managed using the **call stack**.
