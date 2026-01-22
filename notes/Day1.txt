@@ -6,3 +6,4 @@ In the creation phase, memory is allocated for variables and functions (hoisting
 In the execution phase, code runs line by line and variables get actual values.
 The global execution context is created first and only once.
 Function execution contexts are created whenever a function is called and are managed using the **call stack**.
+ 
